@@ -59,7 +59,7 @@ Dashboard akan terbuka di browser default pada:
 
 ## Sumber Data
 
-1. **Data Produk**: Google Sheet [FINAL] Data Product Latest (11,988 records)
+1. **Data Produk**: Google Sheet Data Product Latest (11,988 records)
    - URL: `https://docs.google.com/spreadsheets/d/1d0V4YLivf4O8pJZWGoO7ai_1ZnOMHPrJtSwItOUiuDo`
 2. **Mapping Kategori**:
    - cat_a (Kategori Utama): Hardcoded dalam dashboard.py
