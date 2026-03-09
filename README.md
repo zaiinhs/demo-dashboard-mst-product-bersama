@@ -51,6 +51,16 @@ Dashboard interaktif untuk analisis kategori produk dari data master produk Bers
 
 ## Menjalankan Dashboard
 
+### Cara Cepat (Dari Repository product-standardization)
+
+Jika Anda sudah memiliki project `product-standardization` di komputer:
+
+```bash
+cd /Users/zain/Codes/Delman/Bersama/product-standardization
+source venv/bin/activate
+streamlit run dashboard/dashboard.py
+```
+
 ### Cara 1: Menggunakan Script (Untuk Mac/Linux)
 ```bash
 chmod +x run.sh
