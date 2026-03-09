@@ -62,8 +62,8 @@ CAT_A_MAP = {
 st.title("📦 Dashboard Analisis Data Master Produk")
 
 # URL Google Sheet - Sheet: Data Product Latest (11,988 records)
-# This sheet contains ALL products with 15 categories
-gsheet_url = "https://docs.google.com/spreadsheets/d/1d0V4YLivf4O8pJZWGoO7ai_1ZnOMHPrJtSwItOUiuDo/gviz/tq?tqx=out:csv&sheet=Data%20Product%20Latest"
+# Using gid=676398421 from spreadsheet https://docs.google.com/spreadsheets/d/1d0V4YLivf4O8pJZWGoO7ai_1ZnOMHPrJtSwItOUiuDo/edit?gid=676398421
+gsheet_url = "https://docs.google.com/spreadsheets/d/1d0V4YLivf4O8pJZWGoO7ai_1ZnOMHPrJtSwItOUiuDo/gviz/tq?tqx=out:csv&gid=676398421"
 
 # Import data with cache
 @st.cache_data(ttl=3600)
